@@ -8,7 +8,6 @@ const Navbar = () => {
   const navItems = [
     { label: "Home", href: "#home" },
     { label: "About", href: "#about" },
-    { label: "Themes", href: "#themes" },
     { label: "Timeline", href: "#timeline" },
     { label: "FAQ", href: "#faq" },
     { label: "Contact", href: "#contact" },
@@ -22,7 +21,7 @@ const Navbar = () => {
           <div className="flex items-center gap-2">
             <div className="w-10 h-10 rounded-full bg-gradient-to-br from-primary to-secondary animate-glow" />
             <span className="text-xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              GLB 4.0
+              GNC | TX-1.0
             </span>
           </div>
 
@@ -37,8 +36,14 @@ const Navbar = () => {
                 {item.label}
               </a>
             ))}
-            <Button size="sm" className="bg-primary hover:bg-primary/90 text-primary-foreground">
-              Register Now
+            <Button 
+              size="sm" 
+              className="bg-[#25D366] hover:bg-[#20BD5A] text-white"
+              asChild
+            >
+              <a href="https://chat.whatsapp.com/DWT4oIEjnYwKYBKGchOxxx" target="_blank" rel="noopener noreferrer">
+                Join WhatsApp
+              </a>
             </Button>
           </div>
 
@@ -65,8 +70,14 @@ const Navbar = () => {
                 {item.label}
               </a>
             ))}
-            <Button size="sm" className="w-full mt-4 bg-primary hover:bg-primary/90 text-primary-foreground">
-              Register Now
+            <Button 
+              size="sm" 
+              className="w-full mt-4 bg-[#25D366] hover:bg-[#20BD5A] text-white"
+              asChild
+            >
+              <a href="https://chat.whatsapp.com/DWT4oIEjnYwKYBKGchOxxx" target="_blank" rel="noopener noreferrer">
+                Join WhatsApp
+              </a>
             </Button>
           </div>
         )}

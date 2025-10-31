@@ -3,15 +3,14 @@ import { CheckCircle2 } from "lucide-react";
 
 const Timeline = () => {
   const events = [
-    { time: "09:00 AM", title: "Registration & Check-in", description: "Welcome coffee and team formation" },
-    { time: "10:00 AM", title: "Opening Ceremony", description: "Keynote speeches and theme announcement" },
-    { time: "11:00 AM", title: "Hacking Begins", description: "36 hours of innovation starts" },
-    { time: "02:00 PM", title: "Lunch Break", description: "Networking and refreshments" },
-    { time: "06:00 PM", title: "Mentor Sessions", description: "One-on-one guidance from experts" },
-    { time: "08:00 PM", title: "Dinner", description: "Fuel up for the night ahead" },
-    { time: "12:00 AM", title: "Midnight Snacks", description: "Keep the energy high" },
-    { time: "Day 2", title: "Final Submissions", description: "Project demos and presentations" },
-    { time: "05:00 PM", title: "Closing Ceremony", description: "Winners announcement and prizes" },
+    { time: "08:00 AM", title: "Registration & Check-in", description: "Welcome coffee and team formation" },
+    { time: "09:00 AM", title: "Opening Ceremony", description: "Keynote speeches and theme announcement" },
+    { time: "10:00 AM", title: "Coding Begins", description: "Innovation starts now" },
+    { time: "12:00 PM", title: "Lunch Break", description: "Networking and refreshments" },
+    { time: "02:00 PM", title: "Mentor Sessions", description: "One-on-one guidance from experts" },
+    { time: "04:00 PM", title: "Final Submissions", description: "Project demos and presentations" },
+    { time: "05:00 PM", title: "Judging & Evaluation", description: "Expert panel reviews all projects" },
+    { time: "06:00 PM", title: "Closing Ceremony", description: "Winners announcement and prizes" },
   ];
 
   return (
@@ -25,7 +24,7 @@ const Timeline = () => {
             Event <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Timeline</span>
           </h2>
           <p className="text-lg text-muted-foreground">
-            36 hours of non-stop innovation, learning, and collaboration
+            One day of intensive innovation, learning, and collaboration
           </p>
         </div>
 

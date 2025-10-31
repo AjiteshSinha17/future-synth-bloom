@@ -27,14 +27,14 @@ const Hero = () => {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-card border border-primary/20 backdrop-blur-sm">
             <div className="w-2 h-2 rounded-full bg-primary animate-glow" />
-            <span className="text-sm font-medium">Tech Visor Club Presents</span>
+            <span className="text-sm font-medium">TechVision Club Presents</span>
           </div>
 
           {/* Main Heading */}
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight">
-            <span className="block mb-2">GLB Hackathon</span>
+            <span className="block mb-2">GNC TECHTHON</span>
             <span className="bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent animate-glow">
-              4.0
+              1.0
             </span>
           </h1>
 
@@ -48,7 +48,7 @@ const Hero = () => {
           <div className="flex flex-wrap items-center justify-center gap-6 text-sm sm:text-base">
             <div className="flex items-center gap-2 px-4 py-2 rounded-lg bg-card/50 backdrop-blur-sm border border-border">
               <Calendar className="w-5 h-5 text-primary" />
-              <span className="font-medium">25th April 2025</span>
+              <span className="font-medium">29th November 2025</span>
             </div>
             <div className="flex items-center gap-2 px-4 py-2 rounded-lg bg-card/50 backdrop-blur-sm border border-border">
               <Users className="w-5 h-5 text-secondary" />
@@ -60,16 +60,22 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
             <Button 
               size="lg" 
-              className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 shadow-lg shadow-primary/25"
+              className="bg-[#25D366] hover:bg-[#20BD5A] text-white px-8 shadow-lg shadow-primary/25"
+              asChild
             >
-              Register Now
+              <a href="https://chat.whatsapp.com/DWT4oIEjnYwKYBKGchOxxx" target="_blank" rel="noopener noreferrer">
+                Join WhatsApp
+              </a>
             </Button>
             <Button 
               size="lg" 
               variant="outline" 
               className="border-secondary text-secondary hover:bg-secondary hover:text-secondary-foreground px-8"
+              asChild
             >
-              View Themes
+              <a href="https://unstop.com/p/glb-hackathon-40" target="_blank" rel="noopener noreferrer">
+                Apply Unstop
+              </a>
             </Button>
           </div>
 

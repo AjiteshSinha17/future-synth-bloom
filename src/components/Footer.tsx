@@ -1,11 +1,9 @@
-import { Github, Linkedin, Twitter, Instagram } from "lucide-react";
+import { MessageCircle, Phone } from "lucide-react";
 
 const Footer = () => {
   const socialLinks = [
-    { icon: Github, href: "#", label: "GitHub" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
-    { icon: Twitter, href: "#", label: "Twitter" },
-    { icon: Instagram, href: "#", label: "Instagram" },
+    { icon: MessageCircle, href: "https://chat.whatsapp.com/DWT4oIEjnYwKYBKGchOxxx", label: "WhatsApp" },
+    { icon: Phone, href: "tel:+911204588500", label: "Phone" },
   ];
 
   return (
@@ -17,7 +15,7 @@ const Footer = () => {
             <div className="flex items-center gap-2">
               <div className="w-10 h-10 rounded-full bg-gradient-to-br from-primary to-secondary animate-glow" />
               <span className="text-xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                GLB Hackathon 4.0
+                GNC TECHTHON 1.0
               </span>
             </div>
             <p className="text-sm text-muted-foreground">
@@ -30,9 +28,9 @@ const Footer = () => {
             <h4 className="font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li><a href="#about" className="hover:text-primary transition-colors">About</a></li>
-              <li><a href="#themes" className="hover:text-primary transition-colors">Themes</a></li>
               <li><a href="#timeline" className="hover:text-primary transition-colors">Timeline</a></li>
               <li><a href="#faq" className="hover:text-primary transition-colors">FAQ</a></li>
+              <li><a href="#contact" className="hover:text-primary transition-colors">Contact</a></li>
             </ul>
           </div>
 
@@ -59,7 +57,7 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
-          <p>© 2025 GL Bajaj Institute of Management. All rights reserved.</p>
+          <p>© 2025 GN Group of Institute. All rights reserved.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-primary transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-primary transition-colors">Terms of Service</a>

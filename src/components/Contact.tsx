@@ -31,8 +31,8 @@ const Contact = () => {
                     </div>
                     <div>
                       <div className="font-medium mb-1">Email</div>
-                      <a href="mailto:hackathon@glbajaj.ac.in" className="text-sm text-muted-foreground hover:text-primary">
-                        hackathon@glbajaj.ac.in
+                      <a href="mailto:ajiteshsinha2004@gmail.com" className="text-sm text-muted-foreground hover:text-primary">
+                        ajiteshsinha2004@gmail.com
                       </a>
                     </div>
                   </div>
@@ -56,9 +56,9 @@ const Contact = () => {
                     <div>
                       <div className="font-medium mb-1">Location</div>
                       <p className="text-sm text-muted-foreground">
-                        GL Bajaj Institute of Management<br />
-                        Plot No. 2, Knowledge Park III<br />
-                        Greater Noida, UP - 201306
+                        GN Group of Institute<br />
+                        Knowledge Park-2, Plot-6B<br />
+                        Greater Noida, UP - 201206
                       </p>
                     </div>
                   </div>
@@ -72,9 +72,9 @@ const Contact = () => {
                   <div className="w-16 h-16 rounded-full bg-gradient-to-br from-primary to-secondary mx-auto flex items-center justify-center animate-glow">
                     <MessageCircle className="w-8 h-8 text-primary-foreground" />
                   </div>
-                  <h3 className="text-2xl font-bold">Join Our Community</h3>
+                  <h3 className="text-2xl font-bold">Connect With Us</h3>
                   <p className="text-muted-foreground">
-                    Connect with fellow participants, get updates, and ask questions in our WhatsApp group
+                    Join our WhatsApp group for updates and connect via phone
                   </p>
                 </div>
 
@@ -86,16 +86,6 @@ const Contact = () => {
                   >
                     <a href="https://chat.whatsapp.com/DWT4oIEjnYwKYBKGchOxxx" target="_blank" rel="noopener noreferrer">
                       Join WhatsApp Group
-                    </a>
-                  </Button>
-                  
-                  <Button 
-                    size="lg" 
-                    className="w-full bg-primary hover:bg-primary/90 text-primary-foreground"
-                    asChild
-                  >
-                    <a href="https://unstop.com/p/glb-hackathon-40" target="_blank" rel="noopener noreferrer">
-                      Apply with Unstop
                     </a>
                   </Button>
                 </div>
@@ -110,8 +100,14 @@ const Contact = () => {
               <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
                 Join 500+ talented developers, designers, and innovators in creating the future of AI and nature-inspired technology
               </p>
-              <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground px-8">
-                Register for Hackathon 4.0
+              <Button 
+                size="lg" 
+                className="bg-primary hover:bg-primary/90 text-primary-foreground px-8"
+                asChild
+              >
+                <a href="https://unstop.com/p/glb-hackathon-40" target="_blank" rel="noopener noreferrer">
+                  Apply with Unstop
+                </a>
               </Button>
             </CardContent>
           </Card>
