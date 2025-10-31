@@ -8,7 +8,7 @@ import {
 const FAQ = () => {
   const faqs = [
     {
-      question: "Who can participate in GLB Hackathon 4.0?",
+      question: "Who can participate in GNC TECHTHON 1.0?",
       answer: "Students from all colleges and universities are welcome! Whether you're a beginner or experienced developer, you can participate individually or in teams of up to 4 members.",
     },
     {
@@ -17,7 +17,7 @@ const FAQ = () => {
     },
     {
       question: "Are there any participation fees?",
-      answer: "No! GLB Hackathon 4.0 is completely free for all participants. We want to make innovation accessible to everyone.",
+      answer: "No! GNC TECHTHON 1.0 is completely free for all participants. We want to make innovation accessible to everyone.",
     },
     {
       question: "What are the prize categories?",

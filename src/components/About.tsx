@@ -39,10 +39,10 @@ const About = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-3xl mx-auto text-center mb-16 space-y-4">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold">
-            About <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Hackathon 4.0</span>
+            About <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Hackathon</span>
           </h2>
           <p className="text-lg text-muted-foreground">
-            GL Bajaj Institute of Management presents the ultimate fusion of technology and nature. 
+            Greater Noida College presents the ultimate fusion of technology and nature. 
             Join us for an immersive experience where humanoid robotics meets environmental consciousness.
           </p>
         </div>
@@ -72,10 +72,10 @@ const About = () => {
             <CardContent className="p-8 sm:p-12">
               <div className="grid md:grid-cols-2 gap-8 items-center">
                 <div className="space-y-4">
-                  <h3 className="text-2xl sm:text-3xl font-bold">GL Bajaj Institute</h3>
+                  <h3 className="text-2xl sm:text-3xl font-bold">GNC COLLEGE</h3>
                   <p className="text-muted-foreground">
-                    Since 1997, GL Bajaj has been reshaping talented Indian youth into global multifaceted professionals. 
-                    With 12 thriving institutes, we're committed to excellence in education across engineering, management, 
+                    Since 1997, GNC College has been reshaping talented Indian youth into global multifaceted professionals. 
+                    With thriving institutes, we're committed to excellence in education across engineering, management, 
                     and technology.
                   </p>
                 </div>

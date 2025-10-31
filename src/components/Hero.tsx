@@ -40,8 +40,8 @@ const Hero = () => {
 
           {/* Subheading */}
           <p className="text-xl sm:text-2xl text-muted-foreground max-w-2xl mx-auto">
-            Where <span className="text-primary font-semibold">Artificial Intelligence</span> meets{" "}
-            <span className="text-secondary font-semibold">Nature</span>
+            Where <span className="text-primary font-semibold">Innovation</span> meets{" "}
+            <span className="text-secondary font-semibold">Execution</span>
           </p>
 
           {/* Date & Stats */}
