@@ -9,7 +9,7 @@ const Navbar = () => {
   const navItems = [
     { label: "Home", href: "#home" },
     { label: "About", href: "#about" },
-    { label: "Timeline", href: "#timeline" },
+    { label: "Events", href: "#previous-events" },
     { label: "FAQ", href: "#faq" },
     { label: "Contact", href: "#contact" },
   ];
