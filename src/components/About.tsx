@@ -37,22 +37,14 @@ const About = () => {
       </div>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="max-w-3xl mx-auto text-center mb-16 space-y-4">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold">
-            About <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Hackathon</span>
-          </h2>
-          <p className="text-lg text-muted-foreground">
-            Greater Noida College presents the ultimate fusion of technology and nature. 
-            Join us for an immersive experience where humanoid robotics meets environmental consciousness.
-          </p>
-        </div>
+        
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {features.map((feature, index) => {
             const Icon = feature.icon;
             return (
-              <Card 
-                key={index} 
+              <Card
+                key={index}
                 className="group hover:scale-105 transition-all duration-300 bg-card border-border hover:border-primary/50 hover:shadow-xl hover:shadow-primary/10"
               >
                 <CardContent className="p-6 space-y-4">
@@ -65,7 +57,7 @@ const About = () => {
               </Card>
             );
           })}
-        </div>
+        </div> */}
 
         <div className="mt-16 max-w-4xl mx-auto">
           <Card className="bg-gradient-to-br from-card to-muted border-border overflow-hidden">
@@ -74,8 +66,8 @@ const About = () => {
                 <div className="space-y-4">
                   <h3 className="text-2xl sm:text-3xl font-bold">GNC COLLEGE</h3>
                   <p className="text-muted-foreground">
-                    Since 1997, GNC College has been reshaping talented Indian youth into global multifaceted professionals. 
-                    With thriving institutes, we're committed to excellence in education across engineering, management, 
+                    Since 1997, GNC College has been reshaping talented Indian youth into global multifaceted professionals.
+                    With thriving institutes, we're committed to excellence in education across engineering, management,
                     and technology.
                   </p>
                 </div>
@@ -101,6 +93,27 @@ const About = () => {
             </CardContent>
           </Card>
         </div>
+
+          <div className="max-w-3xl mx-auto text-center mb-16 space-y-4 mt-24">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold">
+            About <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Hackathon</span>
+          </h2>
+          <p className="text-lg indent-center text-muted-foreground">
+
+            The Computer Science & Engineering Department of Greater Noida College and Management
+            recently organized an exciting and innovative “GNC-TECHTHON 1.0” aimed at fostering
+            creativity, collaboration, and technical excellence among students. The event brought together
+            aspiring developers, coders, and tech enthusiasts who worked in teams to solve real-world
+            problems through software solutions. Over the course of the hackathon, participants showcased
+            their skills in programming, design, and critical thinking, developing impressive projects under
+            time constraints. Industry professionals and faculty members mentored the teams, providing
+            valuable insights and feedback. The “GNC-TECHTHON 1.0” not only encouraged practical
+            application of classroom knowledge but also promoted teamwork and innovation, making it a
+            memorable and enriching experience for all involved.
+            Are you ready to unlock your potential and rise to the challenge?
+          </p>
+        </div>
+
       </div>
     </section>
   );

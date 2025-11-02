@@ -1,6 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Calendar, Users } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
+import clubphoto from "@/assets/final logo.png";
+
 
 const Hero = () => {
   return (
@@ -25,9 +27,12 @@ const Hero = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-20 text-center pt-16">
         <div className="max-w-4xl mx-auto space-y-8 animate-slide-up">
           {/* Badge */}
+              <div className="w-40 h-40 sm:w-48 sm:h-48 mx-auto mb-4 overflow-hidden rounded-full bg-transparent">
+            <img className="w-full h-full object-cover object-center transform scale-125 transition-transform duration-300 ease-out" src={clubphoto} alt=" la bal" />
+          </div>
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-card border border-primary/20 backdrop-blur-sm">
             <div className="w-2 h-2 rounded-full bg-primary animate-glow" />
-            <span className="text-sm font-medium">TechVision Club Presents</span>
+            <div className="text-sm font-medium">TechVision Club Presents</div>
           </div>
 
           {/* Main Heading */}
@@ -50,10 +55,10 @@ const Hero = () => {
               <Calendar className="w-5 h-5 text-primary" />
               <span className="font-medium">29th November 2025</span>
             </div>
-            <div className="flex items-center gap-2 px-4 py-2 rounded-lg bg-card/50 backdrop-blur-sm border border-border">
+            {/* <div className="flex items-center gap-2 px-4 py-2 rounded-lg bg-card/50 backdrop-blur-sm border border-border">
               <Users className="w-5 h-5 text-secondary" />
               <span className="font-medium">500+ Participants</span>
-            </div>
+            </div> */}
           </div>
 
           {/* CTA Buttons */}
