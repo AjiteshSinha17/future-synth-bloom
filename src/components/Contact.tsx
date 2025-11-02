@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Mail, Phone, MapPin, MessageCircle } from "lucide-react";
+import { Mail, Phone, MapPin, MessageSquare, Youtube, Instagram, Linkedin } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -19,86 +19,144 @@ const Contact = () => {
             </p>
           </div>
 
+          {/* Contact Information */}
           <div className="grid md:grid-cols-2 gap-8 mb-12">
-            <Card className="bg-card border-border hover:border-primary/50 transition-colors">
-              <CardContent className="p-8 space-y-6">
-                <h3 className="text-2xl font-bold mb-6">Contact Information</h3>
-                
+            {/* Faculty Section */}
+            <Card className="bg-card border-border hover:border-primary/50 hover:shadow-xl hover:shadow-primary/10 transition-all duration-300">
+              <CardContent className="p-8">
+                <h3 className="text-2xl font-bold mb-6 text-center">Faculty Contact</h3>
                 <div className="space-y-4">
                   <div className="flex items-start gap-4">
-                    <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+                    <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
                       <Mail className="w-5 h-5 text-primary" />
                     </div>
                     <div>
-                      <div className="font-medium mb-1">Email</div>
-                      <a href="mailto:ajiteshsinha2004@gmail.com" className="text-sm text-muted-foreground hover:text-primary">
-                        ajiteshsinha2004@gmail.com
+                      <h4 className="font-semibold mb-1">Email</h4>
+                      <a href="mailto:faculty@gngroup.org" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                        faculty@gngroup.org
                       </a>
                     </div>
                   </div>
-
                   <div className="flex items-start gap-4">
-                    <div className="w-10 h-10 rounded-lg bg-secondary/10 flex items-center justify-center flex-shrink-0">
-                      <Phone className="w-5 h-5 text-secondary" />
+                    <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
+                      <Phone className="w-5 h-5 text-primary" />
                     </div>
                     <div>
-                      <div className="font-medium mb-1">Phone</div>
-                      <a href="tel:+911204588500" className="text-sm text-muted-foreground hover:text-secondary">
-                        +91 120 458 8500
+                      <h4 className="font-semibold mb-1">Phone</h4>
+                      <a href="tel:+919876543210" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                        +91 98765 43210
                       </a>
-                    </div>
-                  </div>
-
-                  <div className="flex items-start gap-4">
-                    <div className="w-10 h-10 rounded-lg bg-accent/10 flex items-center justify-center flex-shrink-0">
-                      <MapPin className="w-5 h-5 text-accent" />
-                    </div>
-                    <div>
-                      <div className="font-medium mb-1">Location</div>
-                      <p className="text-sm text-muted-foreground">
-                        GN Group of Institute<br />
-                        Knowledge Park-2, Plot-6B<br />
-                        Greater Noida, UP - 201206
-                      </p>
                     </div>
                   </div>
                 </div>
               </CardContent>
             </Card>
 
-            <Card className="bg-gradient-to-br from-primary/5 to-secondary/5 border-border">
-              <CardContent className="p-8 flex flex-col justify-center space-y-6">
-                <div className="text-center space-y-4">
-                  <div className="w-16 h-16 rounded-full bg-gradient-to-br from-primary to-secondary mx-auto flex items-center justify-center animate-glow">
-                    <MessageCircle className="w-8 h-8 text-primary-foreground" />
+            {/* Student Coordinators Section */}
+            <Card className="bg-card border-border hover:border-secondary/50 hover:shadow-xl hover:shadow-secondary/10 transition-all duration-300">
+              <CardContent className="p-8">
+                <h3 className="text-2xl font-bold mb-6 text-center">Student Coordinators</h3>
+                <div className="space-y-4">
+                  <div className="flex items-start gap-4">
+                    <div className="w-10 h-10 rounded-full bg-secondary/10 flex items-center justify-center shrink-0">
+                      <Mail className="w-5 h-5 text-secondary" />
+                    </div>
+                    <div>
+                      <h4 className="font-semibold mb-1">Email</h4>
+                      <a href="mailto:ajiteshsinha2004@gmail.com" className="text-sm text-muted-foreground hover:text-secondary transition-colors">
+                        ajiteshsinha2004@gmail.com
+                      </a>
+                    </div>
                   </div>
-                  <h3 className="text-2xl font-bold">Connect With Us</h3>
-                  <p className="text-muted-foreground">
-                    Join our WhatsApp group for updates and connect via phone
-                  </p>
-                </div>
-
-                <div className="space-y-3">
-                  <Button 
-                    size="lg" 
-                    className="w-full bg-[#25D366] hover:bg-[#20BD5A] text-white"
-                    asChild
-                  >
-                    <a href="https://chat.whatsapp.com/DWT4oIEjnYwKYBKGchOxxx" target="_blank" rel="noopener noreferrer">
-                      Join WhatsApp Group
-                    </a>
-                  </Button>
+                  <div className="flex items-start gap-4">
+                    <div className="w-10 h-10 rounded-full bg-secondary/10 flex items-center justify-center shrink-0">
+                      <Phone className="w-5 h-5 text-secondary" />
+                    </div>
+                    <div>
+                      <h4 className="font-semibold mb-1">Phone</h4>
+                      <a href="tel:+919876554321" className="text-sm text-muted-foreground hover:text-secondary transition-colors">
+                        +91 98765 54321
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </CardContent>
             </Card>
           </div>
 
+          {/* Location Card */}
+          <Card className="bg-card border-border hover:border-accent/50 hover:shadow-xl hover:shadow-accent/10 transition-all duration-300 mb-12">
+            <CardContent className="p-8 flex flex-col md:flex-row items-center gap-6">
+              <div className="w-16 h-16 rounded-full bg-accent/10 flex items-center justify-center shrink-0">
+                <MapPin className="w-8 h-8 text-accent" />
+              </div>
+              <div className="text-center md:text-left">
+                <h3 className="text-xl font-semibold mb-2">Location</h3>
+                <p className="text-muted-foreground">
+                  GN GROUP OF INSTITUTE, KNOWLEDGE PARK-2, PLOT-6B, GREATER NOIDA UP 201206
+                </p>
+              </div>
+            </CardContent>
+          </Card>
+
+          {/* Connect With Us */}
+          <Card className="bg-gradient-to-br from-card to-muted border-primary/50 mb-12">
+            <CardContent className="p-8 text-center">
+              <h3 className="text-2xl font-bold mb-6">Connect With Us</h3>
+              <div className="flex flex-wrap justify-center gap-4">
+                <Button 
+                  size="lg"
+                  className="bg-[#25D366] hover:bg-[#20BD5A] text-white"
+                  asChild
+                >
+                  <a href="https://chat.whatsapp.com/DWT4oIEjnYwKYBKGchOxxx" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                    <MessageSquare className="w-5 h-5" />
+                    WhatsApp
+                  </a>
+                </Button>
+                <Button 
+                  size="lg"
+                  variant="outline"
+                  className="border-red-500 text-red-500 hover:bg-red-500 hover:text-white"
+                  asChild
+                >
+                  <a href="https://www.youtube.com/@gngroupofinstitutes9600" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                    <Youtube className="w-5 h-5" />
+                    YouTube
+                  </a>
+                </Button>
+                <Button 
+                  size="lg"
+                  variant="outline"
+                  className="border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white"
+                  asChild
+                >
+                  <a href="https://www.instagram.com/gngroupofficials/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                    <Instagram className="w-5 h-5" />
+                    Instagram
+                  </a>
+                </Button>
+                <Button 
+                  size="lg"
+                  variant="outline"
+                  className="border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white"
+                  asChild
+                >
+                  <a href="https://www.linkedin.com/company/gngroupofficials/posts/?feedView=all" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                    <Linkedin className="w-5 h-5" />
+                    LinkedIn
+                  </a>
+                </Button>
+              </div>
+            </CardContent>
+          </Card>
+
           {/* Final CTA */}
-          <Card className="bg-gradient-to-r from-primary/10 via-accent/10 to-secondary/10 border-primary/20">
+          <Card className="bg-gradient-to-r from-primary/10 via-accent/10 to-secondary/10 border-primary/20 hover:shadow-xl hover:shadow-primary/10 transition-all duration-300">
             <CardContent className="p-12 text-center">
               <h3 className="text-3xl font-bold mb-4">Ready to Innovate?</h3>
               <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-                Join 500+ talented developers, designers, and innovators in creating the future of AI and nature-inspired technology
+                Join talented developers, designers, and innovators in creating the future with cutting-edge technology
               </p>
               <Button 
                 size="lg" 
@@ -106,7 +164,7 @@ const Contact = () => {
                 asChild
               >
                 <a href="https://unstop.com/p/glb-hackathon-40" target="_blank" rel="noopener noreferrer">
-                  Apply with Unstop
+                  Apply via Unstop
                 </a>
               </Button>
             </CardContent>

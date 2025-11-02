@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Calendar, Users } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
 import clubphoto from "@/assets/final logo.png";
+import gnLogo from "@/assets/gn-logo.png";
 
 
 const Hero = () => {
@@ -26,9 +27,14 @@ const Hero = () => {
       {/* Content */}
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-20 text-center pt-16">
         <div className="max-w-4xl mx-auto space-y-8 animate-slide-up">
+          {/* College Logo */}
+          <div className="flex justify-center mb-6">
+            <img src={gnLogo} alt="GN Group of Institutes" className="h-16 sm:h-20 w-auto" />
+          </div>
+          
           {/* Badge */}
-              <div className="w-40 h-40 sm:w-48 sm:h-48 mx-auto mb-4 overflow-hidden rounded-full bg-transparent">
-            <img className="w-full h-full object-cover object-center transform scale-125 transition-transform duration-300 ease-out" src={clubphoto} alt=" la bal" />
+          <div className="w-40 h-40 sm:w-48 sm:h-48 mx-auto mb-4 overflow-hidden rounded-full bg-transparent">
+            <img className="w-full h-full object-cover object-center transform scale-125 transition-transform duration-300 ease-out" src={clubphoto} alt="TechVision Club" />
           </div>
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-card border border-primary/20 backdrop-blur-sm">
             <div className="w-2 h-2 rounded-full bg-primary animate-glow" />
@@ -86,7 +92,7 @@ const Hero = () => {
 
           {/* Tagline */}
           <p className="text-lg text-muted-foreground italic pt-8">
-            "Full Ideas, Code Genius"
+            "Fuel Ideas, Code Genius"
           </p>
         </div>
       </div>
