@@ -85,6 +85,42 @@ const About = () => {
           </Card>
         </div>
 
+        {/* Director's Message */}
+        <div className="max-w-5xl mx-auto mb-24">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center mb-12">
+            Director's <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Message</span>
+          </h2>
+          
+          <Card className="bg-gradient-to-br from-card to-muted border-border overflow-hidden hover:shadow-xl hover:shadow-primary/10 transition-all duration-300">
+            <CardContent className="p-8 sm:p-12">
+              <div className="grid md:grid-cols-[200px_1fr] gap-8 items-start">
+                <div className="mx-auto md:mx-0">
+                  <img 
+                    src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop&crop=face" 
+                    alt="Director" 
+                    className="w-48 h-48 rounded-xl object-cover shadow-lg hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="space-y-4 text-muted-foreground">
+                  <p className="text-lg font-semibold text-foreground">Dear Innovators,</p>
+                  <p>
+                    It is with great pride that I extend my warmest greetings to all the participants of GNC TECHTHON 1.0. As the Director of Greater Noida College, I have always believed that true education goes beyond textbooks — it lies in the ability to create, innovate, and solve problems that matter.
+                  </p>
+                  <p>
+                    This hackathon represents the very essence of what we strive to achieve at our institution — nurturing talent that can bridge the gap between academic knowledge and real-world application. I am confident that each one of you will bring fresh perspectives, bold ideas, and the determination to turn challenges into opportunities.
+                  </p>
+                  <p>
+                    Remember, innovation is not about perfection — it's about progress. Take risks, collaborate fearlessly, and let your passion for technology drive you forward. The future belongs to those who dare to dream and have the courage to build.
+                  </p>
+                  <p>
+                    I wish all teams the very best. Make us proud!
+                  </p>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+
         {/* About Hackathon Section */}
         <div className="max-w-3xl mx-auto text-center space-y-4">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold">
