@@ -55,7 +55,7 @@ const Navbar = () => {
               className="bg-[#25D366] hover:bg-[#20BD5A] text-white"
               asChild
             >
-              <a href="https://chat.whatsapp.com/DWT4oIEjnYwKYBKGchOxxx" target="_blank" rel="noopener noreferrer">
+              <a href="https://chat.whatsapp.com/EAx57t7Pi3A2mFAmECkc6G?mode=hq2tcla" target="_blank" rel="noopener noreferrer">
                 Join WhatsApp
               </a>
             </Button>
@@ -88,7 +88,7 @@ const Navbar = () => {
               className="w-full mt-4 bg-[#25D366] hover:bg-[#20BD5A] text-white"
               asChild
             >
-              <a href="https://chat.whatsapp.com/DWT4oIEjnYwKYBKGchOxxx" target="_blank" rel="noopener noreferrer">
+              <a href="https://chat.whatsapp.com/EAx57t7Pi3A2mFAmECkc6G?mode=hq2tcla" target="_blank" rel="noopener noreferrer">
                 Join WhatsApp
               </a>
             </Button>

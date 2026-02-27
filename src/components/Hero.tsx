@@ -65,7 +65,7 @@ const Hero = () => {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
             <Button size="lg" className="bg-[#25D366] hover:bg-[#20BD5A] text-white px-8 shadow-lg shadow-primary/25" asChild>
-              <a href="https://chat.whatsapp.com/DWT4oIEjnYwKYBKGchOxxx" target="_blank" rel="noopener noreferrer">
+              <a href="https://chat.whatsapp.com/EAx57t7Pi3A2mFAmECkc6G?mode=hq2tcla" target="_blank" rel="noopener noreferrer">
                 Join WhatsApp
               </a>
             </Button>

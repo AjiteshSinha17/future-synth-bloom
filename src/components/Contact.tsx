@@ -109,7 +109,7 @@ const Contact = () => {
                   className="bg-[#25D366] hover:bg-[#20BD5A] text-white"
                   asChild
                 >
-                  <a href="https://chat.whatsapp.com/DWT4oIEjnYwKYBKGchOxxx" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                  <a href="https://chat.whatsapp.com/EAx57t7Pi3A2mFAmECkc6G?mode=hq2tcla" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                     <MessageSquare className="w-5 h-5" />
                     WhatsApp
                   </a>
