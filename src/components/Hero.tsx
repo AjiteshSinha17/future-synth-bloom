@@ -54,7 +54,7 @@ const Hero = () => {
           <div className="flex flex-wrap items-center justify-center gap-6 text-sm sm:text-base">
             <div className="flex items-center gap-2 px-4 py-2 rounded-lg bg-card/50 backdrop-blur-sm border border-border">
               <Calendar className="w-5 h-5 text-primary" />
-              <span className="font-medium">29th November 2025</span>
+              <span className="font-medium">25th March 2026</span>
             </div>
             {/* <div className="flex items-center gap-2 px-4 py-2 rounded-lg bg-card/50 backdrop-blur-sm border border-border">
               <Users className="w-5 h-5 text-secondary" />
