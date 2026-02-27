@@ -2,7 +2,7 @@ import { MessageCircle, Phone } from "lucide-react";
 
 const Footer = () => {
   const socialLinks = [
-    { icon: MessageCircle, href: "https://chat.whatsapp.com/DWT4oIEjnYwKYBKGchOxxx", label: "WhatsApp" },
+    { icon: MessageCircle, href: "https://chat.whatsapp.com/EAx57t7Pi3A2mFAmECkc6G?mode=hq2tcla", label: "WhatsApp" },
     { icon: Phone, href: "tel:+911204588500", label: "Phone" },
   ];
 
